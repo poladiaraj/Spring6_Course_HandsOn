@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <!-- These beans get created when ever the application context is initialized -->
+    <bean id="alien" class="com.rpoladia.spring.Alien" autowire="byType">
+    <!-- If the name of the member variable and the bean id is same then autowire byName works
+         If the property is not set the then autowire byType links with the bean of that type (#NOTE: only 1 bean must be present)
+         If there are more than 1 bean, then primary can be used. Primary will be preferred in case of confusion
+    -->
+
+        <!--
+            Setter injection
+            Attribute 'name' contains the name of the member variable.
+        -->
+        <property name="age" value="21"></property>
+        <!--  <property name="com" ref="com1"></property> &lt;!&ndash; Property is preferred over autowire &ndash;&gt;-->
+
+        <property name="com">
+            <!-- Inner bean, can only be used by Alien bean -->
+            <bean id="com1" class="com.rpoladia.spring.Laptop"/>
+        </property>
+
+        <!--
+            If an eager bean requires a lazy bean then lazy beans will also be initialized along with eager bean
+        -->
+        <!--<property name="com" ref="com2"></property>-->
+
+        <!--
+            Reference in beans. This is also setter injection with the help of reference attribute.
+            The attribute 'name' contains the name of the variable. And the ref contains the id of the bean which is the type of variable. -->
+        <!-- <property name="lap" ref="laptop"/> -->
+
+        <!-- Constructor injection -->
+        <!-- <constructor-arg value="21"/> --> <!-- Even though name is not provided, yet the values are assigned to correct variable... -->
+        <!-- <constructor-arg ref="laptop"/> --> <!-- NOTE: This is not due to type, its because of sequence... -->
+
+        <!--
+            Use name of the constructor argument
+            This also requires sequence to be maintained!
+        -->
+        <!--
+        <constructor-arg name="pLap" ref="laptop"/>
+        <constructor-arg name="pAge" value="29"/>
+        -->
+        <!--
+            If you don't want to depend on the sequence then use 'type' attribute.
+            NOTE: This only works if all constructor argument types are different.
+        -->
+        <!-- <constructor-arg type="com.rpoladia.spring.Laptop" ref="laptop"/> -->
+        <!-- <constructor-arg type="int" value="21"/> -->
+
+        <!--
+            For same type of constructor arguments use index
+        -->
+        <!-- <constructor-arg index="0" value="21"/> -->
+        <!-- <constructor-arg index="1" ref="laptop"/> -->
+
+    </bean>
+
+    <!-- For each unique bean id an object will be created, regardless of same Canonical Name of the class -->
+    <!-- <bean id="alien2" class="com.rpoladia.spring.Alien"></bean> -->
+
+    <!-- Scopes -->
+    <!-- keeping the scope to 'prototype' will result into lazy initialization of the bean. -->
+    <!-- Whereas 'singleton' scope results into bean creation on application startup. -->
+    <!-- <bean id="alien" class="com.rpoladia.spring.Alien" scope="prototype"></bean> -->
+
+    <!-- Attribute id is optional, Spring will still create the object if id is absent -->
+
+    <!--<bean id="laptop" class="com.rpoladia.spring.Laptop"></bean>-->
+    <!-- <bean id="com1" class="com.rpoladia.spring.Laptop" primary="true"></bean> -->
+    <!-- <bean class="com.rpoladia.spring.Desktop" lazy-init="true"></bean> -->
+</beans>

@@ -4,56 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f0eb057-8765-4def-ace5-61e9ce8c44e9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/crud/CrudMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/crud/entity/Student.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/ddl/DDLMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/ddl/entity/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/embed/EmbeddableMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/embed/entity/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/embed/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/fetching/FetchingMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/fetching/entity/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/fetching/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/getvsload/GetVsLoadMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/getvsload/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/hql/HQLMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/hql/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/l2cache/L2CacheMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/l2cache/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytomany/ManyToOneMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytomany/entity/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytomany/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytoone/ManyToOneMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytoone/entity/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytoone/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetomany/OneToManyMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetomany/entity/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetomany/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetoone/OneToOneMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetoone/entity/Alien.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetoone/entity/Laptop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/rpoladia/AppTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/App.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/operations/CrudOperations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/operations/FetchAllRows.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/statement/PreparedStatement.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/test/java/com/rpoladia/AppTest.java" afterDir="false" />
-    </list>
+    <list default="true" id="4f0eb057-8765-4def-ace5-61e9ce8c44e9" name="Changes" comment="Added Jdbc and Hibernate demo projects." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -138,11 +89,24 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1752572355666</updated>
-      <workItem from="1752572356705" duration="16519000" />
+      <workItem from="1752572356705" duration="16829000" />
     </task>
+    <task id="LOCAL-00001" summary="Added Jdbc and Hibernate demo projects.">
+      <option name="closed" value="true" />
+      <created>1752679360854</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1752679360854</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Added Jdbc and Hibernate demo projects." />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Jdbc and Hibernate demo projects." />
   </component>
 </project>

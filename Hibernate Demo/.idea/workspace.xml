@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="4f0eb057-8765-4def-ace5-61e9ce8c44e9" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/crud/CrudMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/crud/entity/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/ddl/DDLMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/ddl/entity/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/embed/EmbeddableMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/embed/entity/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/embed/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/fetching/FetchingMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/fetching/entity/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/fetching/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/getvsload/GetVsLoadMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/getvsload/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/hql/HQLMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/hql/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/l2cache/L2CacheMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/l2cache/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytomany/ManyToOneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytomany/entity/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytomany/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytoone/ManyToOneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytoone/entity/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytoone/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetomany/OneToManyMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetomany/entity/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetomany/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetoone/OneToOneMain.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetoone/entity/Alien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/onetoone/entity/Laptop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/hibernate.cfg.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/rpoladia/AppTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/App.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/operations/CrudOperations.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/operations/FetchAllRows.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/main/java/com/rpoladia/statement/PreparedStatement.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../JDBC Demo/src/test/java/com/rpoladia/AppTest.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 2
+}]]></component>
+  <component name="ProjectId" id="2zuE2umCCNg9U6XfDa2YUzxPe0G" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.App.executor": "Run",
+    "Application.DDLMain.executor": "Run",
+    "Application.EmbeddableMain.executor": "Run",
+    "Application.FetchingMain.executor": "Run",
+    "Application.GetVsLoadMain.executor": "Run",
+    "Application.HQLMain.executor": "Run",
+    "Application.L2CacheMain.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.ManyToOneMain.executor": "Run",
+    "Application.OneToManyMain.executor": "Run",
+    "Application.OneToOneMain.executor": "Run",
+    "Application.RelationshipMain.executor": "Run",
+    "Maven. [org.apache.maven.plugins:maven-archetype-plugin:RELEASE:generate].executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "JDBC__and__Hibernate",
+    "last_opened_file_path": "/Users/poladiaraj/Dev/IntelliJ Projects/Spring6_Course_HandsOn/Hibernate Demo/src/main/java/com/rpoladia/l2cache",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "preferences.lookFeel",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/rpoladia/l2cache" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rpoladia/getvsload" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rpoladia/hql" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rpoladia/fetching" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/rpoladia/mapping/manytomany" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.rpoladia.mapping.manytoone" />
+      <recent name="com.rpoladia.mapping.manytomany" />
+    </key>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-jdk-9823dce3aa75-fbdcb00ec9e3-intellij.indexing.shared.core-IU-251.26927.53" />
+        <option value="bundled-js-predefined-d6986cc7102b-09060db00ec0-JavaScript-IU-251.26927.53" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="4f0eb057-8765-4def-ace5-61e9ce8c44e9" name="Changes" comment="" />
+      <created>1752572355666</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1752572355666</updated>
+      <workItem from="1752572356705" duration="16519000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

@@ -1,0 +1,4 @@
+INSERT INTO STUDENT (name, age) VALUES ('Deshna', '25');
+INSERT INTO STUDENT (name, age) VALUES ('Raj', '29');
+INSERT INTO STUDENT (name, age) VALUES ('Sheela', '51');
+INSERT INTO STUDENT (name, age) VALUES ('Jayant', '59');
